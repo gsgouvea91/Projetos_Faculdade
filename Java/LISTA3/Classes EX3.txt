@@ -1,0 +1,49 @@
+Paciente
+	-nome
+	-genero
+	-dataNasc
+	-signo
+	-RG
+	-CPF
+	-Profissao
+	-EstCivil
+	-Telefone
+	-Cel
+	-Email.
+	-Altura
+	-Peso
+
+Endereco
+	-Logradouro
+	-numero
+	-Cep
+	-Cidade
+	-Bairro
+	-Estado
+	-Pais
+
+EmCasoDeEmergencia:
+	-Nome
+	-Médico
+	-telNome
+	-telMedico
+	-Convenio
+	-Hospital
+
+Ficha:
+	-Local
+	-Data
+	-MotivoConsulta
+
+
+Situacao:
+	
+	-fumante
+	-diabetico
+	-cardiaco
+	-pressao alta
+	-Menopausa
+	-gestante
+	-Atrite
+	-Marcapasso
+	-Alergia
