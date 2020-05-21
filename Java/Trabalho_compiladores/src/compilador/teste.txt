@@ -1,0 +1,17 @@
+soma
+se
+nota1
+234teste
+12.50
+1.0
+1234
+100
+/* comentario
+lalal
+final */
+//Comentario
+if
+classe
+inteiro enquanto faca
+preco_venda
+preco.maximo
