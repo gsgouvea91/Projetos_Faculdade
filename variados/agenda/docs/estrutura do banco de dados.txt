@@ -1,0 +1,22 @@
+Nome do BD: Agenda
+
+Usuário: root
+Password: root
+Endereço: localhost
+Porta: 3306
+
+Tabela: Agenda
+    - id, inteiro, pk not null
+    - nome, varchar(50), not null
+    - fone_res, varchar(15)
+    - fone_cel, varchar(15), not null
+    - email, varchar(50), not null
+    - dt_nasc, date
+    - endereco, varchar(60)
+    - bairro , varchar(40)
+    - cep, varchar(9)
+    - uf, char(2)
+    - foto, varchar(200)
+    - facebook, varchar(200)
+    - twitter, varchar(200)
+    - instagram, varchar(200)
