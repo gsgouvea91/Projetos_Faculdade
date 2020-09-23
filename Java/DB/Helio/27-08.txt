@@ -1,0 +1,16 @@
+Driver manager = conexão com SGDB
+Connection = acesso para consultas
+statement = executa instruções dentro do SGBD
+Result Set = Armazena o resultado dado pelo banco (SELECT)
+Data source = mutiplas conexões
+
+PASSOS PARA CONECTAR
+
+1-Estabelecer a conexão.
+2-Criar um objeto da classe statement vinda da
+3-conexão para possibilitar a execução das consultas.
+4-Executar as consultas.
+5-Processar os resultados, sendo os dados enviados ou
+  recebidos.
+6-Fechar a conexão
+ilspy
