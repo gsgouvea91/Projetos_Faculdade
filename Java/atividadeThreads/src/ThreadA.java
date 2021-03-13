@@ -16,18 +16,14 @@ import javax.imageio.ImageIO;
  *
  * @author professor
  */
-//Classe que trata as threads
 public class ThreadA implements Runnable {
 
-    
-    // parametros Inicio - fim da matris Linha Coluna
     private int wS;
     private int wE;
     private int hS;
     private int hE;
     private BufferedImage image;
 
-    //construtor coordenadas + objeto da imagem.
     public ThreadA(int l1, int l2, int c1, int c2, BufferedImage image) {
         this.wS = l1;
         this.wE = l2;
@@ -37,7 +33,9 @@ public class ThreadA implements Runnable {
     }
 
     public void run() {
-        //Loop de varredura da imagem
+
+        //System.out.println(this.image.getWidth());
+        //System.out.println(this.image.getWidth());
         for (int x = wS; x < wE; x++) {
             for (int y = hS; y < hE; y++) {
                 Color c = new Color(this.image.getRGB(x, y));

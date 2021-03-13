@@ -5,7 +5,7 @@ import java.sql.*;
 public class ConexaoBancoDeDados {
     
     private Connection conexao;
-    private final String URLDB = "dbc:mysql://localhost:3306/AulaTeste";
+    private final String URLDB = "jdbc:mysql://localhost:3311/mysql?zeroDateTimeBehavior=convertToNull";
     private final String usuario = "root";
     private final String senha = "root";
     
